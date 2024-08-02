@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pictures/3048207.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.navigation{
+    color: rgb(255, 251, 251);
+}
+
+.navigation .logo h2{
+    font-weight: bold;
+}
+
+.navigation nav {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+
+}
+
+nav ul li a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+
+.navigation ul li a:hover{
+color: rgb(224, 53, 53);
+}
+
+.content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.content .description{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    size: 20pt;
+}
+
+.content .image-container{
+    text-align: center;
+    padding: 25px;
+}
+
+.pagination{
+    text-align: center;
+    padding: 25px;
+}
+
+
+.pagination a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+
+.pagination a.active{
+    color: rgb(250, 54, 54);
+    font-weight: bold;
+}
+
+
+.pagination a:hover:not(.active){
+    background-color: rgb(102, 99, 99);
+}
+
+
